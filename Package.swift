@@ -26,9 +26,9 @@ let package = Package(
             ]),
     ],
     dependencies: [
-        .package(url: "https://github.com/kewlbear/NumPy-iOS.git", .branch("main")),
-        .package(url: "https://github.com/kewlbear/LAPACKE-iOS.git", .branch("main")),
-        .package(url: "https://github.com/kewlbear/BLAS-LAPACK-AppStore-Workaround.git", .branch("main")),
+        .package(url: "https://github.com/dannyboy0103/NumPy-iOS.git", .branch("main")),
+        .package(url: "https://github.com/dannyboy0103/LAPACKE-iOS.git", .branch("main")),
+        .package(url: "https://github.com/dannyboy0103/BLAS-LAPACK-AppStore-Workaround.git", .branch("main")),
     ],
     targets: [
         .binaryTarget(name: "Assimp", url: "https://github.com/kewlbear/Open3D-iOS/releases/download/0.0.20211111025911/Assimp.xcframework.zip", checksum: "c13c17257d5fa149736501a70124bdc94675b697486cec6295b7fba87fb8d948"),
